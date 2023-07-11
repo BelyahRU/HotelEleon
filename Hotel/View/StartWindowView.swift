@@ -25,6 +25,6 @@ class StartWindowView: UIView {
 extension StartWindowView {
     
     func setupView() {
-        backgroundColor = UIColor(patternImage: UIImage(named: Resourses.IconsTabBar.addRoomsIcon)!)
+        backgroundColor = .white
     }
 }

@@ -10,12 +10,15 @@ import SnapKit
 
 class ViewController: UIViewController {
 
-    private lazy var startView = StartWindowView()
+    private lazy var tabBar = MainTabBarController()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .blue
         addSubviews()
         setupConstraints()
+        
     }
 
 
@@ -23,7 +26,7 @@ class ViewController: UIViewController {
 
 extension ViewController {
     func addSubviews() {
-        view.addSubview(startView)
+        
     }
 }
 
@@ -31,12 +34,13 @@ extension ViewController {
 extension ViewController {
     
     func setupConstraints() {
-        startView.snp.makeConstraints { make in
-            make.leading.equalToSuperview()
-            make.trailing.equalToSuperview()
-            make.top.equalToSuperview()
-            make.bottom.equalToSuperview()
-        }
+        
+//        tab.snp.makeConstraints { make in
+//            make.leading.equalToSuperview()
+//            make.trailing.equalToSuperview()
+//            make.top.equalToSuperview()
+//            make.bottom.equalToSuperview()
+//        }
     }
 }
 

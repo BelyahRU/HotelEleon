@@ -20,6 +20,7 @@
 		1A73AF932A5AFB8A00F7A99E /* AddRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A73AF922A5AFB8A00F7A99E /* AddRoomViewController.swift */; };
 		1A73AF952A5AFC1600F7A99E /* GuestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A73AF942A5AFC1500F7A99E /* GuestsViewController.swift */; };
 		1A73AF972A5AFC3600F7A99E /* AddGuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A73AF962A5AFC3600F7A99E /* AddGuestViewController.swift */; };
+		1AC725D92A5D82B6003D222D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC725D82A5D82B6003D222D /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		1A73AF922A5AFB8A00F7A99E /* AddRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRoomViewController.swift; sourceTree = "<group>"; };
 		1A73AF942A5AFC1500F7A99E /* GuestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestsViewController.swift; sourceTree = "<group>"; };
 		1A73AF962A5AFC3600F7A99E /* AddGuestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGuestViewController.swift; sourceTree = "<group>"; };
+		1AC725D82A5D82B6003D222D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,11 +75,8 @@
 				1A73AF832A5AEC7400F7A99E /* View */,
 				1A73AF8C2A5AFAA600F7A99E /* Controllers */,
 				1A73AF892A5AF8A600F7A99E /* Resources */,
-				1A73AF6F2A5AEB4600F7A99E /* AppDelegate.swift */,
-				1A73AF712A5AEB4600F7A99E /* SceneDelegate.swift */,
+				1AC725DA2A5D849C003D222D /* Settings */,
 				1A73AF732A5AEB4600F7A99E /* ViewController.swift */,
-				1A73AF782A5AEB4A00F7A99E /* Assets.xcassets */,
-				1A73AF7A2A5AEB4A00F7A99E /* LaunchScreen.storyboard */,
 				1A73AF7D2A5AEB4A00F7A99E /* Info.plist */,
 			);
 			path = Hotel;
@@ -115,8 +114,20 @@
 				1A73AF922A5AFB8A00F7A99E /* AddRoomViewController.swift */,
 				1A73AF942A5AFC1500F7A99E /* GuestsViewController.swift */,
 				1A73AF962A5AFC3600F7A99E /* AddGuestViewController.swift */,
+				1AC725D82A5D82B6003D222D /* HomeViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1AC725DA2A5D849C003D222D /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				1A73AF6F2A5AEB4600F7A99E /* AppDelegate.swift */,
+				1A73AF712A5AEB4600F7A99E /* SceneDelegate.swift */,
+				1A73AF782A5AEB4A00F7A99E /* Assets.xcassets */,
+				1A73AF7A2A5AEB4A00F7A99E /* LaunchScreen.storyboard */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +213,7 @@
 				1A73AF932A5AFB8A00F7A99E /* AddRoomViewController.swift in Sources */,
 				1A73AF902A5AFB4300F7A99E /* RoomsViewController.swift in Sources */,
 				1A73AF702A5AEB4600F7A99E /* AppDelegate.swift in Sources */,
+				1AC725D92A5D82B6003D222D /* HomeViewController.swift in Sources */,
 				1A73AF8B2A5AF8D800F7A99E /* Resources.swift in Sources */,
 				1A73AF722A5AEB4600F7A99E /* SceneDelegate.swift in Sources */,
 				1A73AF952A5AFC1600F7A99E /* GuestsViewController.swift in Sources */,
