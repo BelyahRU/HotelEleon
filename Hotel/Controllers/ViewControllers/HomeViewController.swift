@@ -9,21 +9,33 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    var homeView = HomeView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        addSubviews()
+        setupConstraints()
         // Do any additional setup after loading the view.
     }
     
+}
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+//MARK: add Subviews
+private extension HomeViewController {
+    private func addSubviews() {
+        view.addSubview(homeView)
     }
-    */
+}
+//MARK: setup Constraints
 
+private extension HomeViewController {
+    private func setupConstraints() {
+        homeView.snp.makeConstraints { make in
+            make.top.equalToSuperview()
+            make.left.equalToSuperview()
+            make.bottom.equalTo(homeView.snp.top).offset(755)
+            make.right.equalToSuperview()
+        }
+    }
+    
 }

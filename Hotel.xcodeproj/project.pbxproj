@@ -12,7 +12,6 @@
 		1A73AF742A5AEB4600F7A99E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A73AF732A5AEB4600F7A99E /* ViewController.swift */; };
 		1A73AF792A5AEB4A00F7A99E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A73AF782A5AEB4A00F7A99E /* Assets.xcassets */; };
 		1A73AF7C2A5AEB4A00F7A99E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A73AF7A2A5AEB4A00F7A99E /* LaunchScreen.storyboard */; };
-		1A73AF852A5AECB800F7A99E /* StartWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A73AF842A5AECB800F7A99E /* StartWindowView.swift */; };
 		1A73AF882A5AEE8000F7A99E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1A73AF872A5AEE8000F7A99E /* SnapKit */; };
 		1A73AF8B2A5AF8D800F7A99E /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A73AF8A2A5AF8D800F7A99E /* Resources.swift */; };
 		1A73AF8E2A5AFAC900F7A99E /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A73AF8D2A5AFAC900F7A99E /* MainTabBarController.swift */; };
@@ -21,6 +20,15 @@
 		1A73AF952A5AFC1600F7A99E /* GuestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A73AF942A5AFC1500F7A99E /* GuestsViewController.swift */; };
 		1A73AF972A5AFC3600F7A99E /* AddGuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A73AF962A5AFC3600F7A99E /* AddGuestViewController.swift */; };
 		1AC725D92A5D82B6003D222D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC725D82A5D82B6003D222D /* HomeViewController.swift */; };
+		1AC725DE2A5D8989003D222D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC725DD2A5D8989003D222D /* HomeView.swift */; };
+		1AC725E32A5DA148003D222D /* CenturyGothic-Regular.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1AC725E22A5DA148003D222D /* CenturyGothic-Regular.TTF */; };
+		1AC725E72A5DBD80003D222D /* AddingGuestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC725E62A5DBD80003D222D /* AddingGuestView.swift */; };
+		1AC725E92A5DC10C003D222D /* InfoAboutGuestSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC725E82A5DC10C003D222D /* InfoAboutGuestSV.swift */; };
+		1AC725EB2A5DE5A6003D222D /* AddingRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC725EA2A5DE5A6003D222D /* AddingRoomView.swift */; };
+		1AC725ED2A5E0CB4003D222D /* BlueTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC725EC2A5E0CB4003D222D /* BlueTopView.swift */; };
+		1AC725EF2A5EFD44003D222D /* AddImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC725EE2A5EFD44003D222D /* AddImageButton.swift */; };
+		1AC725F12A5F402C003D222D /* CustomStepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC725F02A5F402C003D222D /* CustomStepperView.swift */; };
+		1AC725F32A5F4F3D003D222D /* InfoAboutRoomSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC725F22A5F4F3D003D222D /* InfoAboutRoomSV.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +39,6 @@
 		1A73AF782A5AEB4A00F7A99E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A73AF7B2A5AEB4A00F7A99E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A73AF7D2A5AEB4A00F7A99E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A73AF842A5AECB800F7A99E /* StartWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartWindowView.swift; sourceTree = "<group>"; };
 		1A73AF8A2A5AF8D800F7A99E /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		1A73AF8D2A5AFAC900F7A99E /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		1A73AF8F2A5AFB4300F7A99E /* RoomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +46,15 @@
 		1A73AF942A5AFC1500F7A99E /* GuestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestsViewController.swift; sourceTree = "<group>"; };
 		1A73AF962A5AFC3600F7A99E /* AddGuestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGuestViewController.swift; sourceTree = "<group>"; };
 		1AC725D82A5D82B6003D222D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1AC725DD2A5D8989003D222D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1AC725E22A5DA148003D222D /* CenturyGothic-Regular.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CenturyGothic-Regular.TTF"; sourceTree = "<group>"; };
+		1AC725E62A5DBD80003D222D /* AddingGuestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingGuestView.swift; sourceTree = "<group>"; };
+		1AC725E82A5DC10C003D222D /* InfoAboutGuestSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoAboutGuestSV.swift; sourceTree = "<group>"; };
+		1AC725EA2A5DE5A6003D222D /* AddingRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingRoomView.swift; sourceTree = "<group>"; };
+		1AC725EC2A5E0CB4003D222D /* BlueTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueTopView.swift; sourceTree = "<group>"; };
+		1AC725EE2A5EFD44003D222D /* AddImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImageButton.swift; sourceTree = "<group>"; };
+		1AC725F02A5F402C003D222D /* CustomStepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStepperView.swift; sourceTree = "<group>"; };
+		1AC725F22A5F4F3D003D222D /* InfoAboutRoomSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoAboutRoomSV.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +93,7 @@
 				1A73AF892A5AF8A600F7A99E /* Resources */,
 				1AC725DA2A5D849C003D222D /* Settings */,
 				1A73AF732A5AEB4600F7A99E /* ViewController.swift */,
+				1AC725DF2A5D93F0003D222D /* Fonts */,
 				1A73AF7D2A5AEB4A00F7A99E /* Info.plist */,
 			);
 			path = Hotel;
@@ -85,7 +102,14 @@
 		1A73AF832A5AEC7400F7A99E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				1A73AF842A5AECB800F7A99E /* StartWindowView.swift */,
+				1AC725DD2A5D8989003D222D /* HomeView.swift */,
+				1AC725E62A5DBD80003D222D /* AddingGuestView.swift */,
+				1AC725E82A5DC10C003D222D /* InfoAboutGuestSV.swift */,
+				1AC725EA2A5DE5A6003D222D /* AddingRoomView.swift */,
+				1AC725EC2A5E0CB4003D222D /* BlueTopView.swift */,
+				1AC725EE2A5EFD44003D222D /* AddImageButton.swift */,
+				1AC725F02A5F402C003D222D /* CustomStepperView.swift */,
+				1AC725F22A5F4F3D003D222D /* InfoAboutRoomSV.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -128,6 +152,14 @@
 				1A73AF7A2A5AEB4A00F7A99E /* LaunchScreen.storyboard */,
 			);
 			path = Settings;
+			sourceTree = "<group>";
+		};
+		1AC725DF2A5D93F0003D222D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1AC725E22A5DA148003D222D /* CenturyGothic-Regular.TTF */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AC725E32A5DA148003D222D /* CenturyGothic-Regular.TTF in Resources */,
 				1A73AF7C2A5AEB4A00F7A99E /* LaunchScreen.storyboard in Resources */,
 				1A73AF792A5AEB4A00F7A99E /* Assets.xcassets in Resources */,
 			);
@@ -208,15 +241,22 @@
 			files = (
 				1A73AF742A5AEB4600F7A99E /* ViewController.swift in Sources */,
 				1A73AF972A5AFC3600F7A99E /* AddGuestViewController.swift in Sources */,
-				1A73AF852A5AECB800F7A99E /* StartWindowView.swift in Sources */,
+				1AC725E92A5DC10C003D222D /* InfoAboutGuestSV.swift in Sources */,
+				1AC725ED2A5E0CB4003D222D /* BlueTopView.swift in Sources */,
+				1AC725EB2A5DE5A6003D222D /* AddingRoomView.swift in Sources */,
 				1A73AF8E2A5AFAC900F7A99E /* MainTabBarController.swift in Sources */,
 				1A73AF932A5AFB8A00F7A99E /* AddRoomViewController.swift in Sources */,
 				1A73AF902A5AFB4300F7A99E /* RoomsViewController.swift in Sources */,
+				1AC725E72A5DBD80003D222D /* AddingGuestView.swift in Sources */,
 				1A73AF702A5AEB4600F7A99E /* AppDelegate.swift in Sources */,
+				1AC725F12A5F402C003D222D /* CustomStepperView.swift in Sources */,
 				1AC725D92A5D82B6003D222D /* HomeViewController.swift in Sources */,
 				1A73AF8B2A5AF8D800F7A99E /* Resources.swift in Sources */,
+				1AC725DE2A5D8989003D222D /* HomeView.swift in Sources */,
 				1A73AF722A5AEB4600F7A99E /* SceneDelegate.swift in Sources */,
+				1AC725EF2A5EFD44003D222D /* AddImageButton.swift in Sources */,
 				1A73AF952A5AFC1600F7A99E /* GuestsViewController.swift in Sources */,
+				1AC725F32A5F4F3D003D222D /* InfoAboutRoomSV.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

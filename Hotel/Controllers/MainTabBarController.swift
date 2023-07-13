@@ -12,10 +12,10 @@ import SnapKit
 class MainTabBarController: UITabBarController {
     
     
-    private lazy var customTabBarView: UIView  = {
+    var customTabBarView: UIView  = {
         let view = UIView()
         // to make the cornerRadius of coustmeTabBarView
-        view.backgroundColor = Resourses.Colors.blueColor
+        view.backgroundColor = Resourses.Colors.mainBlueColor
         view.layer.cornerRadius = 25
         view.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
         view.clipsToBounds = true
@@ -27,11 +27,12 @@ class MainTabBarController: UITabBarController {
         super.viewDidLoad()
         setupCustomTabBar()
         generateTabBar()
+        setupView()
         
     }
     
 }
-//MARK: settings for TabBarViewController
+//MARK: settings for TabBarController
 private extension MainTabBarController {
     private func setupView() {
         tabBar.unselectedItemTintColor = .white
